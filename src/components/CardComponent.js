@@ -4,7 +4,6 @@ import { Card, Container } from "react-bootstrap";
 export default function CardComponent({fullname,nickname,age,hobby}) {
   return (
     <div>
-      <Container>
         <Card border="success" style={{ width: "18rem" }}>
           <Card.Header>{nickname}</Card.Header>
           <Card.Body>
@@ -15,7 +14,6 @@ export default function CardComponent({fullname,nickname,age,hobby}) {
             </Card.Text>
           </Card.Body>
         </Card>
-      </Container>
     </div>
   );
 }
